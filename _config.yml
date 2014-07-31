@@ -1,0 +1,11 @@
+permalink: /:year/:month/:day/:title 
+
+pygments: true
+
+title : Fredonia Science Center Kiosk
+
+production_url : http://sunyfredonia.github.io/kiosk-science/
+
+baseurl : http://sunyfredonia.github.io/kiosk-science/
+
+timezone : America/New_York
