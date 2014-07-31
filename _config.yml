@@ -1,7 +1,6 @@
 permalink: /:year/:month/:day/:title 
 
 highlighter: pygments
-markdown: kramdown
 
 title : Fredonia Science Center Kiosk
 
