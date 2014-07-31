@@ -24,3 +24,11 @@ prose:
         field:
           element: "text"
           label: "URL to image"
+      - name: "map"
+        field:
+          element: "text"
+          label: "URL to map image"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "map"
