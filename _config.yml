@@ -1,6 +1,7 @@
 permalink: /:year/:month/:day/:title 
 
-pygments: true
+highlighter: pygments
+markdown: kramdown
 
 title : Fredonia Science Center Kiosk
 
@@ -9,3 +10,17 @@ production_url : http://sunyfredonia.github.io/kiosk-science/
 baseurl : http://sunyfredonia.github.io/kiosk-science/
 
 timezone : America/New_York
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://sunyfredonia.github.io/kiosk-science/'
+  metadata:
+    _posts/maps:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+      - name: "image"
+        field:
+          element: "text"
+          label: "URL to image"
